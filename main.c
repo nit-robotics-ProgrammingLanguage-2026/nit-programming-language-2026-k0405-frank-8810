@@ -8,9 +8,11 @@ int main(void) {
      とする．また，xの値はキーボードからdoubleとして入力するものとする．
      これらの値すべてをdouble型として計算した計算結果のa(桁数指定なし)を表示するようなプログラムとせよ．
      */
-    
-
-
-     
+    double x, r, pai ;
+    r=4;
+    pai=3.141592;
+    scanf ("%lf", &x );
+    x=360/(r*pai)*x;
+    printf("%f\n" ,x );
     return 0;
 }
